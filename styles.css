@@ -100,6 +100,37 @@ font-family: 'Playfair Display';
 font-weight: 800;
 font-size: 27px;
 line-height: 32px;
+margin-bottom: 5px;
 
 color: #2F2E2E;
+}
+.serv p {
+margin-top: 5px;
+font-family: 'Playfair Display';
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+color: #2F2E2E;
+}
+.serv {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    cursor: pointer;
+}
+.serv h4{
+    margin-left: 236px;
+    margin-top:7px;
+    margin-bottom: 4px;
+}
+.serv img {
+    margin-left: 236px;
+    margin-bottom: 7px;
+}
+.serv p {
+    margin-left: 230px;
+    margin-top: 12px;
+    line-height: 10px;
 }
