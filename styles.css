@@ -27,7 +27,7 @@ li {
     list-style-type: none;
     margin-right: 73px;
     align-self: center;
-    cursor: pointer;
+    
 }
 .menu li {
     transition: all .3s ;
@@ -36,6 +36,7 @@ li {
 {
 text-decoration: underline;
 font-size:22px;
+cursor: pointer;
 }
 .intro {
     position: absolute;
@@ -101,6 +102,9 @@ font-weight: 800;
 font-size: 27px;
 line-height: 32px;
 margin-bottom: 5px;
+margin-left: 236px;
+margin-top:7px;
+margin-bottom: 4px;
 
 color: #2F2E2E;
 }
@@ -118,14 +122,16 @@ color: #2F2E2E;
     display: flex;
     flex-direction: row;
     align-self: center;
-    cursor: pointer;
 }
-.serv h4{
-    margin-left: 236px;
-    margin-top:7px;
-    margin-bottom: 4px;
+.serv h4:hover{
+    text-decoration: underline;
+    font-size:30px;
+    cursor: pointer;    
+    transition: all .3s ;
+    color: #2F2E2E;
 }
 .serv img {
+    cursor: pointer; 
     margin-left: 236px;
     margin-bottom: 7px;
 }
@@ -175,13 +181,14 @@ font-size: 24px;
 line-height: 29px;
 
 color: #2F2E2E;
-
-transition: all .3s ;
 }
-.rm:hover 
+.rm p:hover 
 {
 text-decoration: underline;
-font-size:22px;
+cursor: pointer;
+transition: all .3s ;
+font-size: 26px;
+color: #2F2E2E;
 }
 .tl h3 {
 font-family: 'Playfair Display';
@@ -199,9 +206,6 @@ color: #000000;
     display: flex;
     flex-direction: row;
     align-self: center;
-}
-.cly li{
-    margin-top: 0px;
 }
 .cly p{
 font-family: 'Playfair Display';
@@ -225,4 +229,19 @@ color: #2F2E2E;
 .cly img {
     margin-left:100px;
     margin-top: 78px;
+}
+.sn {
+width: 100vw;
+height: 97px;
+margin-top: 78px;
+
+background: #2E2F32;
+}
+.ln {
+    margin-left: 100px;
+}
+.ln img {
+    margin-right: 36px;
+    margin-top: 37px;
+    cursor: pointer;
 }
