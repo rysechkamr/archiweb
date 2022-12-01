@@ -134,3 +134,52 @@ color: #2F2E2E;
     margin-top: 12px;
     line-height: 10px;
 }
+.ab {
+    display: flex;
+}
+.ab img {
+    margin-left: 179px;
+    margin-top: 179px;
+    display: flex;
+}
+.tx h1 {
+font-family: 'Playfair Display';
+font-size: 51px;
+font-weight: 700;
+line-height: 60px;
+margin-top: 204px;
+margin-left: 26px;
+font-stretch: ultra-expanded;
+
+
+
+color: #2F2E2E;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.tx p {
+font-family: 'Playfair Display';
+font-size: 31px;
+font-weight: 500;
+line-height: 36px;
+margin-left: 26px;
+margin-right: 202px;
+
+color: #2F2E2E;
+}
+.rm p{
+ font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+
+color: #2F2E2E;
+
+transition: all .3s ;
+}
+.rm:hover 
+{
+text-decoration: underline;
+font-size:22px;
+}
