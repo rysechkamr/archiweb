@@ -183,3 +183,46 @@ transition: all .3s ;
 text-decoration: underline;
 font-size:22px;
 }
+.tl h3 {
+font-family: 'Playfair Display';
+font-size: 51px;
+line-height: 60px;
+font-weight: 550;
+text-align: center;
+margin-top: 106px;
+margin-bottom: 0px;
+
+
+color: #000000;
+}
+.cly {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+.cly li{
+    margin-top: 0px;
+}
+.cly p{
+font-family: 'Playfair Display';
+font-size: 17px;
+line-height: 20px;
+margin-top: 8px;
+margin-right: 56px;
+
+color: #2F2E2E;
+}
+.cly h5 {
+font-family: 'Playfair Display';
+font-size: 28px;
+line-height: 33px;
+margin-top: 51px;
+margin-bottom: 8px;
+font-weight: 600;
+
+color: #2F2E2E;
+}
+.cly img {
+    margin-left:100px;
+    margin-top: 78px;
+}
